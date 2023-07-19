@@ -1,4 +1,5 @@
 /*Estilos da página index.html*/
+
 .center {
     text-align: center;
 }
@@ -11,7 +12,10 @@
     display: flex;
     flex-flow: row;
     justify-content: center;
-    align-items: center;
+    text-align:center ;
+    color: #000000;
+    letter-spacing: 1px;
+    word-spacing: 0.8px;    
 }
 
 #menu li {
@@ -54,3 +58,52 @@
 .ml-50 {
     margin-left: 50px;
 }
+
+.formacao{
+    margin-left: 50px;
+    letter-spacing: -0.6px;
+    word-spacing: 1.6px;
+    padding: 25px 50px;
+    border-style: double;
+    border: 2px solid  #03010500;;
+    border-radius: 4px;
+    margin-left: 150px ;
+    color:rgb(199, 204, 208)
+    }
+
+.resumo{
+    
+    margin-left: 50px;
+    letter-spacing: -0.6px;
+    word-spacing: 1.6px;
+    padding: 25px 50px;
+    border-style: double;
+    border: 2px solid  #03010500;;
+    border-radius: 4px;
+    margin-left: 150px ;
+    font-size: 20px;
+    color:rgb(199, 204, 208)
+
+}
+
+.sombreado{
+    text-shadow: 2px 2px 5px #770dcdce;
+    color: rgb(199, 204, 208);
+}
+
+#page {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #tamanho {
+    padding-bottom: 2.5rem;    /* altura do rodapé */
+  }
+  
+  #pg-final {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* altura do rodapé */
+  }
+  
