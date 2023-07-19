@@ -26,7 +26,10 @@
         <div>
             <form>
                 <label for="nome">Nome:</label> <br>
-                <input type="text" id="nome">
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome">
+
+                </div>
                 <br>
                 <br>
                 <label for="email">E-mail:</label> <br>
@@ -58,7 +61,14 @@
             <a href="https://api.whatsapp.com/send?phone=5511954795878" target="_blank">
                 <img class="tm-social p-30" src="assets/img/whatsapp.png" alt="Logo whatsapp"></a>
         </div>
+    
+        <p class="center">
+            Todos os direitos reservados: Mayara Souza &copy
+        </p>
+
     </footer>
+
+    <script src="./assets/JS/script.js"></script>
 
     </body>
     </html>
